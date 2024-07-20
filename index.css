@@ -1,0 +1,78 @@
+body {
+    background-image: url("mall2.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main{
+    padding: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .75);
+    box-shadow: 0px 0px 2px black;
+    color: #232b2b;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+#increment-btn:hover{
+    background: white;
+    border: 2px solid green;
+    color: darkgreen;
+}
+
+#save-btn:hover {
+    background-color: white;
+    border: 2px solid #26a7de;
+    color: #26a7de;
+}
+
+#decrease-btn:hover{
+    background-color: white;
+    border: 2px solid darkred;
+    color: darkred;
+}
+
+#increment-btn {
+    background: darkgreen;
+}
+
+#decrease-btn{
+    background-color: darkred;
+}
+
+#save-btn {
+    background: #26a7de;
+    width: 200px;
+}
+
+
+
